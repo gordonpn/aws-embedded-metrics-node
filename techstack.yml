@@ -1,7 +1,8 @@
 repo_name: gordonpn/aws-embedded-metrics-node
 report_id: 8351e52b9b264629f6b40b1d9caf7d59
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T14:07:02+00:00'
+timestamp: '2024-01-04T14:54:17+00:00'
 requested_by: gordonpn
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-node
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-node
   detection_source: Repo Metadata
 - name: Koa
   description: Next generation web framework for node.js
@@ -37,8 +40,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/1726/5055057.png
-  detection_source_url: examples/ecs-firelens/package-lock.json
-  detection_source: examples/eks/package.json
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-node/blob/master/examples/ecs-firelens/package-lock.json
+  detection_source: examples/ecs-firelens/package.json
   last_updated_by: Jared Nance
   last_updated_on: 2020-03-22 18:13:49.000000000 Z
 - name: Node.js
@@ -50,7 +53,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
-  detection_source: test/canary/agent/Dockerfile
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-node/blob/master/examples/ecs-firelens/Dockerfile
+  detection_source: examples/ecs-firelens/Dockerfile
   last_updated_by: Jared Nance
   last_updated_on: 2020-03-22 18:13:49.000000000 Z
 - name: Docker
@@ -62,6 +66,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-node
   detection_source: Repo Metadata
 - name: ESLint
   description: The fully pluggable JavaScript code quality tool
@@ -72,7 +77,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
-  detection_source: package.json
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-node/blob/master/.eslintrc
+  detection_source: ".eslintrc"
   last_updated_by: Reed Hermes
   last_updated_on: 2019-12-03 22:42:10.000000000 Z
 - name: Git
@@ -83,6 +89,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-node
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -92,6 +99,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-node/blob/master/.github/workflows/codeql-analysis.yml
   detection_source: ".github/workflows/codeql-analysis.yml"
   last_updated_by: Jared Nance
   last_updated_on: 2020-11-04 02:41:22.000000000 Z
@@ -105,8 +113,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/830/jest.png
-  detection_source_url: examples/testing/package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-node/blob/master/examples/testing/package-lock.json
+  detection_source: examples/testing/package.json
   last_updated_by: Jared Nance
   last_updated_on: 2020-03-18 03:39:27.000000000 Z
 - name: Prettier
@@ -119,7 +127,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-node/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Mark Kuhn
   last_updated_on: 2022-09-15 22:42:56.000000000 Z
@@ -131,6 +139,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-node/blob/master/package.json
   detection_source: package.json
   last_updated_by: Jared Nance
   last_updated_on: 2019-10-14 19:57:48.000000000 Z
@@ -143,6 +152,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-node
   detection_source: Repo Metadata
 - name: "@types/faker"
   description: TypeScript definitions for faker
@@ -154,7 +164,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17400/default_68a60246a766655932541acc39422873bd51360a.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-node/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Mark Kuhn
   last_updated_on: 2022-09-15 22:42:56.000000000 Z
@@ -168,7 +178,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-node/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Mark Kuhn
   last_updated_on: 2022-09-15 22:42:56.000000000 Z
@@ -182,7 +192,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: examples/testing/package-lock.json
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-node/blob/master/examples/testing/package-lock.json
   detection_source: package.json
   last_updated_by: Mark Kuhn
   last_updated_on: 2022-09-15 22:42:56.000000000 Z
@@ -196,7 +206,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-node/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Mark Kuhn
   last_updated_on: 2022-09-15 22:42:56.000000000 Z
@@ -210,7 +220,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-node/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Mark Kuhn
   last_updated_on: 2022-09-15 22:42:56.000000000 Z
@@ -224,7 +234,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16018/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-node/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Jared Nance
   last_updated_on: 2019-11-15 21:11:39.000000000 Z
@@ -238,7 +248,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-node/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Mark Kuhn
   last_updated_on: 2022-09-15 22:42:56.000000000 Z
@@ -252,7 +262,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-node/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Mark Kuhn
   last_updated_on: 2022-09-15 22:42:56.000000000 Z
@@ -266,8 +276,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16146/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
-  detection_source_url: examples/testing/package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-node/blob/master/examples/testing/package-lock.json
+  detection_source: examples/testing/package.json
   last_updated_by: Jared Nance
   last_updated_on: 2021-01-04 17:38:09.000000000 Z
 - name: ts-jest
@@ -281,7 +291,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-node/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Jared Nance
   last_updated_on: 2021-03-31 03:24:53.000000000 Z
